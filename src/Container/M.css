@@ -131,7 +131,10 @@ padding: 0px;
     display:none;
 }
 
+.brand-name{
+    display: flex;
 
+}
 
 @media (max-width:576px) {
 
@@ -147,10 +150,10 @@ padding: 0px;
         text-align: center;
 
 
-
         color: #013CC6;
         font-family: Poppins;
     }
+    
 
 }
 
@@ -162,16 +165,17 @@ padding: 0px;
         width: 250px;
     }
 
- .brand-name {
-     font-size: 15px;
-     font-weight: bold;
-     text-align: center;
+    .brand-name {
+        font-weight: bold;
+        font-size: 25px;
 
+        color: #013CC6  ;
+        font-family: Poppins;
+        font-weight: 500;
+        line-height: normal;
 
+    }
 
-     color: #013CC6;
-     font-family: Poppins;
- }
 }
 @media (min-width: 350px) and (max-width: 1070px) {
 
@@ -180,13 +184,40 @@ position:fixed;
 width:min-content;
 top:0%;
 
+}}
+/* Default styles for .list1 a */
+.list1 a {
+    /* Youdisr default styles here */
+display: block;
 }
-}
-.list1 a{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}    
+/* Media query for screens with a maximum width of 1070px */
+@media (max-width: 1070px) {
+    .list1 a {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
 
+    .sidebox {
+        position: fixed;
+        width: min-content;
+        top: 0%;
+        overflow-y: auto;
+        max-height: 100vh;
+    }
+
+    .sidebox::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .sidebox::-webkit-scrollbar-thumb {
+        background-color:grey;
+        border-radius: 5px;
+    }
+
+    .sidebox {
+        scrollbar-width: thin;
+        scrollbar-color: #0B63F8 transparent;
+    }
 }
