@@ -227,3 +227,28 @@ a:hover {
         scrollbar-color: #0B63F8 transparent;
     }
 }
+
+@media (max-width:700px) {
+
+    .mbox {
+
+        position: relative;
+        left: 29%;
+
+    }
+
+    .sidebox {
+left: 0%;
+    }
+
+}
+.mainc{
+
+}
+.mbox{
+    padding-right:6% ;
+    padding-left: 2%;
+}
+.tab{
+
+}

@@ -6,7 +6,7 @@ function Header() {
 
         <div className="container-fluid bg-light header mt-5">
             <div className="input-group  seabar ">
-                <div className="form-outline sea1  ">
+                <i className="bx bx-lock-alt locki"> </i><div className="form-outline sea1  ">
                     <input type="search" id="form1" className="form-control " placeholder='search' />
                 </div>
                 <div className="not">
@@ -21,7 +21,7 @@ function Header() {
                     </svg>
                 </div>
             </div>
-            <h3 className='mt-5'><i className="bx bx-lock-alt locki"> </i> Sales Information</h3>
+            <h3 className='mt-5'> Sales Information</h3>
             <form action=""className='mb-5'>
                 <div className="row">
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
