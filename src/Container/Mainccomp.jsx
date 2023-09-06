@@ -13,7 +13,7 @@ function Mainccomp() {
 
                     <nav className='sidebarm bg-white p-2 min-vh-100 mlg' >
                         <div className='my-5 li  con'>
-                            <span className=" text-center fs-5  brand-name ">Medico Sales</span>
+                            <span className=" text-center fs-1    brand-name ">Medico Sales</span>
                            
                            
                         </div>

@@ -1,6 +1,6 @@
 body {
 
-
+    
     margin: 0px;
 }
 
@@ -130,6 +130,9 @@ padding: 0px;
 .locki{
     display:none;
 }
+
+
+
 @media (max-width:576px) {
 
 
@@ -159,18 +162,16 @@ padding: 0px;
         width: 250px;
     }
 
-    .brand-name {
-        font-weight: bold;
-        font-size: 25px;
-
-        color: #013CC6;
-        font-family: Poppins;
-        font-weight: 500;
-        line-height: normal;
-
-    }
+ .brand-name {
+     font-size: 15px;
+     font-weight: bold;
+     text-align: center;
 
 
+
+     color: #013CC6;
+     font-family: Poppins;
+ }
 }
 @media (min-width: 350px) and (max-width: 1070px) {
 
@@ -179,6 +180,7 @@ position:fixed;
 width:min-content;
 top:0%;
 
+}
 }
 .list1 a{
 display: flex;
