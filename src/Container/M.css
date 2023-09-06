@@ -1,6 +1,6 @@
 body {
 
-    
+
     margin: 0px;
 }
 
@@ -118,20 +118,22 @@ a:hover {
     height: 770px;
 }
 
-.sidebox{ 
-position: fixed;
-margin: 0px;
-padding: 0px;
+.sidebox {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
 }
-.mbox{
+
+.mbox {
     position: relative;
     left: 25%;
 }
-.locki{
-    display:none;
+
+.locki {
+    display: none;
 }
 
-.brand-name{
+.brand-name {
     display: flex;
 
 }
@@ -153,7 +155,7 @@ padding: 0px;
         color: #013CC6;
         font-family: Poppins;
     }
-    
+
 
 }
 
@@ -169,7 +171,7 @@ padding: 0px;
         font-weight: bold;
         font-size: 25px;
 
-        color: #013CC6  ;
+        color: #013CC6;
         font-family: Poppins;
         font-weight: 500;
         line-height: normal;
@@ -177,19 +179,23 @@ padding: 0px;
     }
 
 }
+
 @media (min-width: 350px) and (max-width: 1070px) {
 
-.sidebox {
-position:fixed;
-width:min-content;
-top:0%;
+    .sidebox {
+        position: fixed;
+        width: min-content;
+        top: 0%;
 
-}}
+    }
+}
+
 /* Default styles for .list1 a */
 .list1 a {
     /* Youdisr default styles here */
-display: block;
+    display: block;
 }
+
 /* Media query for screens with a maximum width of 1070px */
 @media (max-width: 1070px) {
     .list1 a {
@@ -212,7 +218,7 @@ display: block;
     }
 
     .sidebox::-webkit-scrollbar-thumb {
-        background-color:grey;
+        background-color: grey;
         border-radius: 5px;
     }
 
